@@ -16,16 +16,11 @@ function Header(){
 		   			 <Navbar.Brand href="#home">Saw News</Navbar.Brand>
 					<Nav className="mr-auto">
 					  <Nav.Link href="#home">Home</Nav.Link>
-					  <Nav.Link href="#local">Local News</Nav.Link>
-					  <Nav.Link href="#world">World News</Nav.Link>
 					  <Nav.Link href="#Politics">Politics</Nav.Link>
 					  <Nav.Link href="#business">Business</Nav.Link>
 					  <Nav.Link href="#Sports">Sports</Nav.Link>
 					</Nav>
-					<Form inline>
-					  <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-					  <Button variant="outline-info">Search</Button>
-					</Form>
+					
 		  		</Navbar>					
 
 			</div>

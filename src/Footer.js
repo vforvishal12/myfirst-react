@@ -17,12 +17,6 @@ let currTime = new Date().toLocaleString();
 
   <Navbar.Collapse>
     <Navbar.Text>
-      <a href="#">Blog</a>
-    </Navbar.Text>
-  </Navbar.Collapse>
-
-  <Navbar.Collapse>
-    <Navbar.Text>
       <a href="#">Contact Us</a>
     </Navbar.Text>
   </Navbar.Collapse>
