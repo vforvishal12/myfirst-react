@@ -17,16 +17,15 @@ let currTime = new Date().toLocaleString();
 
   <Navbar.Collapse>
     <Navbar.Text>
-      <a href="#">Contact Us</a>
+      Contact Us : <a href="#">9073352001 </a>
     </Navbar.Text>
   </Navbar.Collapse>
 
 
-  <Navbar.Collapse>
+  
     <Navbar.Text>
       © Copyright vsaw 2020. Designed and Developed by : <a href="linkedin.com/in/vishal-kumar-8b9b2a190">Vishal Saw</a>
     </Navbar.Text>
-  </Navbar.Collapse>
 </Navbar>
 		);
 }

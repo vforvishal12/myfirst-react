@@ -1,0 +1,12 @@
+f942ca8aac0743e4b46884f15967d4ea
+
+http://newsapi.org/v2/top-headlines?country=in&apiKey=f942ca8aac0743e4b46884f15967d4ea
+
+
+<Card.Img variant="top" src="{article.urlToImage}" />
+
+index %3 == 0?</CardGroup> :''
+
+<MyCards />
+			<br/>
+			<MyCardGroup />

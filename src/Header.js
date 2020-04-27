@@ -9,13 +9,14 @@ import Button from 'react-bootstrap/Button'
 function Header(){
 
 	return (
-			<div>
+			
 	
 				
-				<Navbar bg="dark" variant="dark">
+				<Navbar bg="dark" variant="dark" fixed="top">
 		   			 <Navbar.Brand href="#home">Saw News</Navbar.Brand>
 					<Nav className="mr-auto">
-					  <Nav.Link href="#home">Home</Nav.Link>
+					  <Nav.Link href="#local">Local</Nav.Link>
+					  <Nav.Link href="#world">World</Nav.Link>
 					  <Nav.Link href="#Politics">Politics</Nav.Link>
 					  <Nav.Link href="#business">Business</Nav.Link>
 					  <Nav.Link href="#Sports">Sports</Nav.Link>
@@ -23,7 +24,7 @@ function Header(){
 					
 		  		</Navbar>					
 
-			</div>
+			
 		);
 }
 
