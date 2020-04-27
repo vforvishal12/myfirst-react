@@ -13,8 +13,8 @@ class NewsAPI extends Component {
     };
 
     componentDidMount() {
-        fetch('http://newsapi.org/v2/top-headlines?country=in&apiKey=f942ca8aac0743e4b46884f15967d4ea',  { headers: { 'Access-Control-Allow-Origin': '*',
-    'Content-Type': 'application/json', "Accept": "application/json" } })
+        fetch('http://newsapi.org/v2/top-headlines?country=in&apiKey=f942ca8aac0743e4b46884f15967d4ea',  { headers: {
+    'Content-Type': 'application/json'}})
             .then(res => res.json())
             .then((data) => {
                 this.setState({ articles: data.articles })
