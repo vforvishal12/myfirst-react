@@ -24,7 +24,7 @@ let currTime = new Date().toLocaleString();
 
   
     <Navbar.Text>
-      © Copyright vsaw 2020. Designed and Developed by : <a href="linkedin.com/in/vishal-kumar-8b9b2a190">Vishal Saw</a>
+      © Copyright vsaw 2020. Designed and Developed by : <a href="linkedin.com/in/vishal-kumar-8b9b2a190" target="_blank">Vishal Saw</a>
     </Navbar.Text>
 </Navbar>
 		);
