@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+//import CardGroup from 'react-bootstrap/CardGroup';
 
 const MyNewsCard = ({articles}) => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
-import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card'; 
-import MyCards from './MyCards';
-import MyCardGroup from './MyCardGroup';
+//import Accordion from 'react-bootstrap/Accordion';
+//import Card from 'react-bootstrap/Card'; 
+//import MyCards from './MyCards';
+//import MyCardGroup from './MyCardGroup';
 import NewsAPI from './NewsAPI';
 
 

@@ -10,3 +10,6 @@ index %3 == 0?</CardGroup> :''
 <MyCards />
 			<br/>
 			<MyCardGroup />
+
+
+			NewsAPI.js:16 Mixed Content: The page at 'https://sawnews.netlify.app/header' was loaded over HTTPS, but requested an insecure resource 'http://newsapi.org/v2/top-headlines?country=in&apiKey=f942ca8aac0743e4b46884f15967d4ea'. This request has been blocked; the content must be served over HTTPS.

@@ -1,1 +1,1 @@
-/api/*  http://newsapi.org/:splat  200
+/api/*  http://newsapi.org/v2/top-headlines?country=in&apiKey=f942ca8aac0743e4b46884f15967d4ea:splat  200
