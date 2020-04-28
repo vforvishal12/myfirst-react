@@ -10,7 +10,7 @@ const MyNewsCard = ({articles}) => {
                 
 
  
-            <Card border="dark" style={{ width: '70rem' }}>
+            <Card border="dark" style={{ width: '30%' }}>
             	
 			   	<Card.Img variant="top" src={article.urlToImage} />
 				
