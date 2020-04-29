@@ -24,7 +24,7 @@ function Footer(){
 
   
     <Navbar.Text>
-      © Copyright vsaw 2020. Designed and Developed by : <a href="linkedin.com/in/vishal-kumar-8b9b2a190" target="_blank">Vishal Saw</a>
+      © Copyright vsaw 2020. Designed and Developed by : <a href="https://linkedin.com/in/vishal-kumar-8b9b2a190" target="_blank">Vishal Saw</a>
     </Navbar.Text>
 </Navbar>
 		);
