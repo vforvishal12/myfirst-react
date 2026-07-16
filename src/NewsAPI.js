@@ -13,7 +13,7 @@ class NewsAPI extends Component {
     };
 
     componentDidMount() {
-        fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=f942ca8aac0743e4b46884f15967d4ea')
+        fetch('https://newsapi.org/v2/everything?q=india&apiKey=34300e3dec4f49f8bc1b82e638dd3f4b')
             //
             //.then(res => res.text())          // convert to plain text
            // .then(text => console.log('sttt' + text))  // then log it out
