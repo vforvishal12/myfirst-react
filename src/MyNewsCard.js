@@ -3,11 +3,15 @@ import Card from 'react-bootstrap/Card';
 //import CardGroup from 'react-bootstrap/CardGroup';
 
 const MyNewsCard = ({articles}) => {
+    // Guard against undefined articles
+    if (!articles || articles.length === 0) {
+        return <div style={{padding: '20px'}}>No articles available</div>;
+    }
+
     return (
         <div>
-
             {articles.map((article, index) => (
-                <Card key={index} border="dark" style={{ width: '100%' }}>
+                <Card key={index} border="dark" style={{ width: '100%', marginBottom: '15px' }}>
             	
 			   	<Card.Img variant="top" src={article.urlToImage} />
 				
