@@ -13,7 +13,7 @@ class NewsAPI extends Component {
     };
 
     componentDidMount() {
-        fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=34300e3b476b44f9b3705ffa5d73ff5e')
+        fetch('https://newsapi.org/v2/everything?q=india&apiKey=34300e3dec4f49f8bc1b82e638dd3f4b')
             .then(res => res.json())
             .then((data) => {
                 console.log(data); // Debug: check what data you're getting
