@@ -13,18 +13,17 @@ class NewsAPI extends Component {
     };
 
     componentDidMount() {
-        fetch('https://newsapi.org/v2/everything?q=india&apiKey=34300e3dec4f49f8bc1b82e638dd3f4b')
-            //
-            //.then(res => res.text())          // convert to plain text
-           // .then(text => console.log('sttt' + text))  // then log it out
+        fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=34300e3b476b44f9b3705ffa5d73ff5e')
             .then(res => res.json())
             .then((data) => {
-                this.setState({ articles: data.articles })
+                console.log(data); // Debug: check what data you're getting
+                this.setState({ articles: data.articles || [] })
             })
-            .catch(console.log)
+            .catch(err => {
+                console.error('Error fetching news:', err);
+                this.setState({ articles: [] });
+            })
     }
 }
 
 export default NewsAPI;
-
-
